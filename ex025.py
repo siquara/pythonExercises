@@ -8,4 +8,4 @@ print(lista_com_duplicatas)
 
 [novaLista.append(num) for num in lista_com_duplicatas if num not in novaLista]
 
-print(novaLista)
+print(novaLista) 
