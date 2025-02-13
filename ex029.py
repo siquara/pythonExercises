@@ -25,4 +25,3 @@ print(dictPlayer)
 
 for partida in enumerate(goals, start=1):
     print(f'Na {partida[0]}ª partida {inputName} fez {partida[1]} gols.')
-
