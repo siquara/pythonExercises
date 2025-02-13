@@ -6,15 +6,13 @@ from datetime import datetime
 
 personInformations = {}
 
-inputName = str(input('Digite o nome: '))
+personInformations["nome"] = str(input('Digite o nome: '))
 inputYear = int(input('Digite o ano de nascimento: '))
 
 age =  datetime.now().year - inputYear
+personInformations["idade"] = age
 
 inputCTPS = int(input('Digite o número da sua carteira de trabalho (0 não tem): '))
-
-personInformations["nome"] = inputName
-personInformations["idade"] = age
 
 if inputCTPS > 0:
     inputYearCtps = int(input('Digite o ano de Contratação: '))
