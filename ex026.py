@@ -9,8 +9,6 @@ def mediaCalc(values):
     calc = total/len(values)
     return calc
 
-
-
 for student in range(1, inputQuant + 1):
     studentName = str(input(f'Digite o NOME do {student}º aluno: '))
     studentNotes = []
